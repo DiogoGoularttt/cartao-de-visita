@@ -1,59 +1,50 @@
-# BusinessCard
+# Cartão de Visitas Digital
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+---
 
-## Development server
+## Desafio Front End Junior - Angular
 
-To start a local development server, run:
+Este repositório contém a minha solução para o desafio técnico proposto para a vaga de Desenvolvedor Front End Junior com foco em Angular. O objetivo era criar um gerador de cartões de visitas interativo que coleta informações do usuário através de um formulário e gera um cartão visual personalizável.
 
-```bash
-ng serve
-```
+-------
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+- **Angular 19**: Framework principal utilizado para a construção da aplicação
+- **TypeScript**: Linguagem base para o desenvolvimento
+- **HTML5/CSS3**: Para estruturação e estilização avançada
+- **JsPDF**: Biblioteca para geração de PDFs no cliente
+- **Angular Forms**: Para validação e manipulação de formulários reativos
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+-------
 
-```bash
-ng generate component component-name
-```
+## Funcionalidades Implementadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Requisitos Obrigatórios
+- Formulário dividido em duas seções:
+  1. Dados Pessoais (Nome, Idade, Telefone, E-mail)
+  2. Dados de Endereço (Endereço, Número, Bairro, Cidade)
+- Geração dinâmica do cartão de visitas com os dados fornecidos
 
-```bash
-ng generate --help
-```
+### Funcionalidades Extras
+- 🎨 Personalização completa do cartão:
+  - Seletor de cor de fundo
+  - Seletor de cor do texto
+  - Seletor de cor dos ícones
+- 📥 Download do cartão como arquivo PDF
+- 📱 Design responsivo que se adapta a diferentes tamanhos de tela
+- 🔄 Visualização em tempo real das alterações
 
-## Building
+---
 
-To build the project run:
+## Como Executar o Projeto Localmente
 
-```bash
-ng build
-```
+1. Clone este repositório: git clone https://github.com/DiogoGoularttt/cartao-de-visita.git
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+2. Navegue até a pasta do projeto: cd cartao-de-visita
 
-## Running unit tests
+3. Instale as dependências: npm install
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+4. Execute o servidor de desenvolvimento: ng serve
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. Abra o navegador e acesse: http://localhost:4200/
